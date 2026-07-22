@@ -35,30 +35,30 @@ void main() {
 //        System.out.println("Objeto não é um cachorro");
 //    }
 
-    Produto2 produto = new Produto2("Bola", 10.0);
-    Produto2 produto2 = new Produto2("Skate", 100.0);
-    Produto2 produto3 = new Produto2("Bicicleta", 250.0);
-    Produto2 produto4 = new Produto2("Cubo magico", 25.0);
-
-    ArrayList<Produto2> lista = new ArrayList<>();
-    lista.add(produto);
-    lista.add(produto2);
-    lista.add(produto3);
-    lista.add(produto4);
-
-
-
-    double media = 0;
-    double acumulador = 0;
-    double incremento = 0;
-    for(Produto2 items : lista){
-        System.out.println(items.getNome() + " " + items.getPreco());
-       acumulador = acumulador + items.getPreco();
-        incremento++;
-    }
-    // 96 vale a media
-    System.out.println(acumulador);
-    System.out.println(incremento);
-    media = acumulador / incremento;
-    System.out.println("A media de valores da lista é de: " + media);
-}
+//    Produto2 produto = new Produto2("Bola", 10.0);
+//    Produto2 produto2 = new Produto2("Skate", 100.0);
+//    Produto2 produto3 = new Produto2("Bicicleta", 250.0);
+//    Produto2 produto4 = new Produto2("Cubo magico", 25.0);
+//
+//    ArrayList<Produto2> lista = new ArrayList<>();
+//    lista.add(produto);
+//    lista.add(produto2);
+//    lista.add(produto3);
+//    lista.add(produto4);
+//
+//
+//
+//    double media = 0;
+//    double acumulador = 0;
+//    double incremento = 0;
+//    for(Produto2 items : lista){
+//        System.out.println(items.getNome() + " " + items.getPreco());
+//       acumulador = acumulador + items.getPreco();
+//        incremento++;
+//    }
+//    // 96 vale a media
+//    System.out.println(acumulador);
+//    System.out.println(incremento);
+//    media = acumulador / incremento;
+//    System.out.println("A media de valores da lista é de: " + media);
+//}
