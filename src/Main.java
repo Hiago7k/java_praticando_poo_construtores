@@ -1,3 +1,7 @@
 void main() {
-    System.out.println("teste");
+
+    Produto produto1 = new Produto();
+
+
+
 }
