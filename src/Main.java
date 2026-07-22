@@ -26,5 +26,9 @@ void main() {
         System.out.println(items);
     }
 
+    Cachorro dog = new Cachorro();
+    Animal animal = (Animal) dog;
+
+
 
 }
