@@ -26,9 +26,14 @@ void main() {
         System.out.println(items);
     }
 
-    Cachorro dog = new Cachorro();
-    Animal animal = (Animal) dog;
+    Animal animal = new Cachorro();
 
+    if(animal instanceof Cachorro) {
+        Cachorro cachorro = (Cachorro) animal;
+        System.out.println("mesmo tipo");
+    }else {
+        System.out.println("Objeto não é um cachorro");
+    }
 
 
 }
