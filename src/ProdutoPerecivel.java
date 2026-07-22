@@ -1,9 +1,10 @@
 import java.util.Date;
 
 public class ProdutoPerecivel extends  Produto {
-    private Date dataValidade;
-    
-    public ProdutoPerecivel(String nome, double preco, int quantidade){
+    private String dataValidade;
+
+    public ProdutoPerecivel(String nome, double preco, int quantidade, String dataValidade){
         super(nome, preco, quantidade);
+        this.dataValidade = dataValidade;
     };
 }
