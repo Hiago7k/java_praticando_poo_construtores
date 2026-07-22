@@ -1,19 +1,11 @@
 void main() {
 
-    Produto produto = new Produto();
-    Produto produto1 = new Produto();
-    produto1.setNome("Teclado Gamer");
-    produto1.setPreco(199.0);
-    produto1.setQuantidade(15);
-
+    Produto produto = new Produto("Nome", 0.0, 0);
+    Produto produto1 = new Produto("Teclado Gamer", 199.0, 15);
     produto.AdicionarProduto(produto1);
 
-    Produto produto2 = new Produto();
-    produto2.setNome("Mouse leve");
-    produto2.setPreco(500.0);
-    produto2.setQuantidade(150);
+    Produto produto2 = new Produto("Mouse leve", 500.0, 150);
     produto.AdicionarProduto(produto2);
-
 
     produto.informeLista();
     System.out.println(produto1.toString());
