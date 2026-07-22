@@ -16,5 +16,7 @@ void main() {
 
 
     produto.informeLista();
+    System.out.println(produto1.toString());
+    System.out.println(produto2.toString());
 
 }
