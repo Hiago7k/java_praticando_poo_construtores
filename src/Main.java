@@ -40,5 +40,14 @@ void main() {
     Produto2 produto3 = new Produto2("Bicicleta", 250.0);
     Produto2 produto4 = new Produto2("Cubo magico", 25.0);
 
+    ArrayList<Produto2> lista = new ArrayList<>();
+    lista.add(produto);
+    lista.add(produto2);
+    lista.add(produto3);
+    lista.add(produto4);
+
+    for(Produto2 items : lista){
+        System.out.println(items.getNome() + " " + items.getPreco());
+    }
 
 }
