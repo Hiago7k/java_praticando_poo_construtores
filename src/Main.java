@@ -15,25 +15,30 @@ void main() {
 //    System.out.println(produto2.toString());
 //    System.out.println(comida.toString());
 
-    ArrayList<String> lista = new ArrayList<>();
-    lista.add("Item 1");
-    lista.add("Item 2");
-    lista.add("Item 3");
-    lista.add("Item 4");
-    lista.add("Item 5");
+//    ArrayList<String> lista = new ArrayList<>();
+//    lista.add("Item 1");
+//    lista.add("Item 2");
+//    lista.add("Item 3");
+//    lista.add("Item 4");
+//    lista.add("Item 5");
+//
+//    for (var items : lista){
+//        System.out.println(items);
+//    }
+//
+//    Animal animal = new Cachorro();
+//
+//    if(animal instanceof Cachorro) {
+//        Cachorro cachorro = (Cachorro) animal;
+//        System.out.println("mesmo tipo");
+//    }else {
+//        System.out.println("Objeto não é um cachorro");
+//    }
 
-    for (var items : lista){
-        System.out.println(items);
-    }
-
-    Animal animal = new Cachorro();
-
-    if(animal instanceof Cachorro) {
-        Cachorro cachorro = (Cachorro) animal;
-        System.out.println("mesmo tipo");
-    }else {
-        System.out.println("Objeto não é um cachorro");
-    }
+    Produto2 produto = new Produto2("Bola", 10.0);
+    Produto2 produto2 = new Produto2("Skate", 100.0);
+    Produto2 produto3 = new Produto2("Bicicleta", 250.0);
+    Produto2 produto4 = new Produto2("Cubo magico", 25.0);
 
 
 }
