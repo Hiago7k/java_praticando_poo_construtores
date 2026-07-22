@@ -46,8 +46,19 @@ void main() {
     lista.add(produto3);
     lista.add(produto4);
 
+
+
+    double media = 0;
+    double acumulador = 0;
+    double incremento = 0;
     for(Produto2 items : lista){
         System.out.println(items.getNome() + " " + items.getPreco());
+       acumulador = acumulador + items.getPreco();
+        incremento++;
     }
-
+    // 96 vale a media
+    System.out.println(acumulador);
+    System.out.println(incremento);
+    media = acumulador / incremento;
+    System.out.println("A media de valores da lista é de: " + media);
 }
