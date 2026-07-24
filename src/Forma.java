@@ -1,4 +1,4 @@
 public interface Forma {
 
-    void calcularArea();
+    void calcularArea(double base, double altura);
 }
