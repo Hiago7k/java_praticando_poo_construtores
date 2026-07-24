@@ -63,6 +63,12 @@ void main() {
 //    System.out.println("A media de valores da lista é de: " + media);
 
     ContaBancaria conta1 = new ContaBancaria(1234, 1500);
+    ContaBancaria conta2 = new ContaBancaria(4567, 2500);
+    ContaBancaria conta3 = new ContaBancaria(46432, 1300);
+    ContaBancaria conta4 = new ContaBancaria(419239, 10000);
+    ContaBancaria conta5 = new ContaBancaria(12334, 500);
+    ContaBancaria conta6 = new ContaBancaria(10023, 100);
+    ContaBancaria conta7 = new ContaBancaria(44232, 15000);
 
 
 }
