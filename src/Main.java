@@ -62,8 +62,7 @@ void main() {
 //    media = acumulador / incremento;
 //    System.out.println("A media de valores da lista é de: " + media);
 
-    Quadrado quadrado = new Quadrado();
-    Circulo circulo = new Circulo();
+    ContaBancaria conta1 = new ContaBancaria();
 
 
 }
