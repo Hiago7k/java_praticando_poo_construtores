@@ -80,6 +80,8 @@ void main() {
     contas.adicionarNaLista(conta6);
     contas.adicionarNaLista(conta7);
 
+    contas.exibeLista();
+
 
 
 }

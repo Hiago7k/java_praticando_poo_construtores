@@ -15,4 +15,10 @@ public class ContaBancaria {
     public void adicionarNaLista(ContaBancaria conta){
         lista.add(conta);
     }
+
+    public void exibeLista(){
+        for (ContaBancaria items  : lista){
+            System.out.println("Numero da conta " +items.numeroDaConta + " Saldo " + items.saldo );
+        }
+    };
 }
