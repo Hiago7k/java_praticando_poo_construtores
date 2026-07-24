@@ -18,6 +18,8 @@ public class ContaBancaria {
 
     public void exibeLista(){
         for (ContaBancaria items  : lista){
+
+            if (items.saldo > 10000)
             System.out.println("Numero da conta " +items.numeroDaConta + " Saldo " + items.saldo );
         }
     };
