@@ -11,7 +11,7 @@ public class ContaBancaria {
     }
 
     ArrayList<ContaBancaria> lista = new ArrayList<>();
-    
+
     public void adicionarNaLista(ContaBancaria conta){
         lista.add(conta);
     }

@@ -62,6 +62,8 @@ void main() {
 //    media = acumulador / incremento;
 //    System.out.println("A media de valores da lista é de: " + media);
 
+
+    ContaBancaria contas = new ContaBancaria(0,0);
     ContaBancaria conta1 = new ContaBancaria(1234, 1500);
     ContaBancaria conta2 = new ContaBancaria(4567, 2500);
     ContaBancaria conta3 = new ContaBancaria(46432, 1300);
@@ -69,6 +71,15 @@ void main() {
     ContaBancaria conta5 = new ContaBancaria(12334, 500);
     ContaBancaria conta6 = new ContaBancaria(10023, 100);
     ContaBancaria conta7 = new ContaBancaria(44232, 15000);
+
+    contas.adicionarNaLista(conta1);
+    contas.adicionarNaLista(conta2);
+    contas.adicionarNaLista(conta3);
+    contas.adicionarNaLista(conta4);
+    contas.adicionarNaLista(conta5);
+    contas.adicionarNaLista(conta6);
+    contas.adicionarNaLista(conta7);
+
 
 
 }
